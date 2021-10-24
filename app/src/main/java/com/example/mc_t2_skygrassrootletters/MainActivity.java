@@ -6,15 +6,18 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView letterStatus;
+    ImageView image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         letterStatus = (TextView) findViewById(R.id.textView);
+        image=(ImageView) findViewById(R.id.image);
     }
 
     public void updateStatus(View view) {
@@ -23,12 +26,16 @@ public class MainActivity extends AppCompatActivity {
         if(isRootLetter(ch)){
             letterStatus.setText("Root Letter");
             letterStatus.setTextColor(Color.BLACK);
+            image.setImageResource(R.drawable.root);
+
         }else if(isSkyLetter(ch)){
             letterStatus.setText("Sky Letter");
             letterStatus.setTextColor(Color.BLUE);
+            image.setImageResource(R.drawable.sky);
         }else{
             letterStatus.setText("Grass Letter");
             letterStatus.setTextColor(Color.GREEN);
+            image.setImageResource(R.drawable.grass);
         }
     }
     public boolean isRootLetter(char ch)

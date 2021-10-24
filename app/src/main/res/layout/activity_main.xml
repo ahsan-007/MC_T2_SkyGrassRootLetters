@@ -33,7 +33,7 @@
             android:onClick="updateStatus"
             android:text="z"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -43,7 +43,7 @@
             android:onClick="updateStatus"
             android:text="x"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -53,7 +53,7 @@
             android:onClick="updateStatus"
             android:text="c"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -63,7 +63,7 @@
             android:onClick="updateStatus"
             android:text="v"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -73,7 +73,7 @@
             android:onClick="updateStatus"
             android:text="b"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -83,7 +83,7 @@
             android:onClick="updateStatus"
             android:text="n"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -93,7 +93,7 @@
             android:onClick="updateStatus"
             android:text="m"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
@@ -117,7 +117,7 @@
             android:onClick="updateStatus"
             android:text="q"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -129,7 +129,7 @@
             android:onClick="updateStatus"
             android:text="w"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -141,7 +141,7 @@
             android:onClick="updateStatus"
             android:text="e"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -153,7 +153,7 @@
             android:onClick="updateStatus"
             android:text="r"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -165,7 +165,7 @@
             android:onClick="updateStatus"
             android:text="t"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -177,7 +177,7 @@
             android:onClick="updateStatus"
             android:text="y"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -189,7 +189,7 @@
             android:onClick="updateStatus"
             android:text="u"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -201,7 +201,7 @@
             android:onClick="updateStatus"
             android:text="i"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -213,7 +213,7 @@
             android:onClick="updateStatus"
             android:text="o"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -225,7 +225,7 @@
             android:onClick="updateStatus"
             android:text="p"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             app:iconPadding="2dp"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -261,7 +261,7 @@
             android:onClick="updateStatus"
             android:text="s"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -272,7 +272,7 @@
             android:onClick="updateStatus"
             android:text="d"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -283,7 +283,7 @@
             android:onClick="updateStatus"
             android:text="f"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -294,7 +294,7 @@
             android:onClick="updateStatus"
             android:text="g"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -305,7 +305,7 @@
             android:onClick="updateStatus"
             android:text="h"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -316,7 +316,7 @@
             android:onClick="updateStatus"
             android:text="j"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -327,7 +327,7 @@
             android:onClick="updateStatus"
             android:text="k"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
         <Button
@@ -338,10 +338,21 @@
             android:onClick="updateStatus"
             android:text="l"
             android:textAllCaps="false"
-            android:textSize="12sp"
+            android:textSize="10sp"
             tools:ignore="TouchTargetSizeCheck" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chipmunk" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
