@@ -1,6 +1,8 @@
 package com.example.mc_t2_skygrassrootletters;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,10 +22,13 @@ public class MainActivity extends AppCompatActivity {
         char ch = btn.getText().toString().charAt(0);
         if(isRootLetter(ch)){
             letterStatus.setText("Root Letter");
+            letterStatus.setTextColor(Color.BLACK);
         }else if(isSkyLetter(ch)){
             letterStatus.setText("Sky Letter");
+            letterStatus.setTextColor(Color.BLUE);
         }else{
             letterStatus.setText("Grass Letter");
+            letterStatus.setTextColor(Color.GREEN);
         }
     }
     public boolean isRootLetter(char ch)
