@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Welcome! Select an Alphabet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="488dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/z"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="z"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/x"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="x"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="c"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/v"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="v"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="b"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/n"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="n"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/m"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:onClick="updateStatus"
+            android:text="m"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="q"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="w"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="e"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="r"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="t"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="y"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="u"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="i"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="o"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="p"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:iconPadding="2dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="428dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="a"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/s"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="s"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="d"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="f"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="g"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="h"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/j"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="j"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/k"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="k"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/l"
+            android:layout_width="36dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:text="l"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
