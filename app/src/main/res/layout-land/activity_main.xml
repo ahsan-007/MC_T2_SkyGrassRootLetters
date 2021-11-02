@@ -7,44 +7,30 @@
     android:backgroundTint="@color/black"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="364dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="1dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="40dp"
         android:text="Welcome! Select an Alphabet"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="0.513"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/image"
+        app:layout_constraintStart_toEndOf="@+id/button11"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="wrap_content"
         android:layout_height="54dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginBottom="6dp"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/z"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -62,7 +48,7 @@
 
         <Button
             android:id="@+id/x"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -80,7 +66,7 @@
 
         <Button
             android:id="@+id/c"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -98,7 +84,7 @@
 
         <Button
             android:id="@+id/v"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -116,7 +102,7 @@
 
         <Button
             android:id="@+id/b"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -134,7 +120,7 @@
 
         <Button
             android:id="@+id/n"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -152,7 +138,7 @@
 
         <Button
             android:id="@+id/m"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -171,176 +157,21 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="326dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
-
-        <Button
-            android:id="@+id/a"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="a"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/s"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="s"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/d"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="d"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/f"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="f"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/g"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="g"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/h"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="h"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/j"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="j"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/k"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="k"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/l"
-            android:layout_width="36dp"
-            android:layout_height="match_parent"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:fontFamily="sans-serif-black"
-            android:onClick="updateStatus"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
-            android:paddingRight="3dp"
-            android:paddingBottom="3dp"
-            android:text="l"
-            android:textAllCaps="false"
-            android:textSize="14sp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="360dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="312dp"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="96dp"
         android:orientation="horizontal"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122">
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -358,7 +189,7 @@
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -376,7 +207,7 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -394,7 +225,7 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -412,7 +243,7 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -430,7 +261,7 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -448,7 +279,7 @@
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -466,7 +297,7 @@
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -484,7 +315,7 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -502,7 +333,7 @@
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="36dp"
+            android:layout_width="42dp"
             android:layout_height="match_parent"
             android:backgroundTint="@android:color/holo_blue_dark"
             android:fontFamily="sans-serif-black"
@@ -520,31 +351,196 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/image"
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="0.794"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/chipmunk" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="a"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/s"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="s"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="d"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="f"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="g"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="h"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/j"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="j"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/k"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="k"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/l"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:fontFamily="sans-serif-black"
+            android:onClick="updateStatus"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="3dp"
+            android:text="l"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button11"
         android:layout_width="107dp"
         android:layout_height="81dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="?attr/colorPrimaryVariant"
         android:text="a-z"
         android:textAllCaps="false"
         android:textSize="34sp"
-        app:layout_constraintEnd_toStartOf="@+id/image"
-        app:layout_constraintHorizontal_bias="0.419"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:strokeColor="@color/teal_200" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/chipmunk" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="285dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

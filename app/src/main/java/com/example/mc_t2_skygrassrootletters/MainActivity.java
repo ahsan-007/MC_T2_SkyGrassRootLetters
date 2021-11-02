@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     TextView letterStatus;
+    Button charDisplay;
     ImageView image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +19,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         letterStatus = (TextView) findViewById(R.id.textView);
         image=(ImageView) findViewById(R.id.image);
+        charDisplay=(Button)findViewById(R.id.button11);
     }
 
     public void updateStatus(View view) {
         Button btn = (Button)view;
         char ch = btn.getText().toString().charAt(0);
+        charDisplay.setText(btn.getText().toString());
         if(isRootLetter(ch)){
             letterStatus.setText("Root Letter");
             letterStatus.setTextColor(Color.BLACK);
